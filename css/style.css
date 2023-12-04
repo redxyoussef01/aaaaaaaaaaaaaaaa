@@ -1,0 +1,42 @@
+.hf-color{
+    background-color: #BAB2B5;
+}
+
+.h2-border{
+    border-bottom: thick solid #EDC7B7;
+}
+
+.section-color{
+    background-color: #EEE2DC;
+}
+
+
+@media screen and (min-width: 0px){
+    .p-width {
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .card-size{
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .card-size{
+        width: 21rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .p-width {
+        width: 60%;
+    }
+
+    .hidden {
+        display: flex;
+    }
+}
